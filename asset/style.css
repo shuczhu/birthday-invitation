@@ -73,6 +73,6 @@ a:link {
 
 @media screen and (max-width: 576px) {
 .container {
-    padding: 50px 5%;
+    padding: 0;
 }
 }
