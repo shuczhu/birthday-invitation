@@ -6,7 +6,7 @@
 
 
 .container {
-    padding: 100px 30%;
+    padding: 100px 20%;
 }
 
 body h1 {
@@ -69,4 +69,10 @@ body .event-info {
 
 a:link {
     text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+.container {
+    padding: 50px 5%;
+}
 }
