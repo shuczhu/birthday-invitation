@@ -6,7 +6,10 @@ titleEl = document.querySelectorAll(".title");
 for (i = 0; i < descriptionEl.length; i++) {
     descriptionEl[i].setAttribute("data-id", i);
     titleEl[i].setAttribute("data-id", i);
+    descriptionEl[i].style.display = "none";
 }
+
+
 
 var showHide = function (event) {
     var getId = event.target.getAttribute("data-id");
